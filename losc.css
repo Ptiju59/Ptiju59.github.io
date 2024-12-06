@@ -1,0 +1,71 @@
+/* Styles généraux */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* En-tête */
+header {
+    background-color: #d50032;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+/* Sections */
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+h2 {
+    color: #d50032;
+}
+
+/* Photo du club */
+.club-photo {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.club-photo img {
+    max-width: 80%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.club-photo p {
+    font-style: italic;
+    margin-top: 10px;
+}
+
+/* Chronologie */
+.timeline {
+    list-style-type: none;
+    padding: 0;
+}
+
+.timeline li {
+    margin: 10px 0;
+}
+
+/* Pied de page */
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
